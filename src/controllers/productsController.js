@@ -14,9 +14,10 @@ const controller = {
 
 	// Detail - Detail from one product
 	detail: (req, res) => {
-		let id = req.params.id;
-		let product = products[id];
-		res.render('detail', {product: product, id:id});
+		let _id = Number(req.params.id);
+		// let product = products[id];
+		let product = products.find(({id})=> id === _id)
+		res.render('detail', {product: product});
 	},
 
 	// Create - Form to create
@@ -37,14 +38,18 @@ const controller = {
     products.push(product);
     let created = JSON.stringify(products);
     fs.writeFileSync(path.join(__dirname, "../data/productsDataBase.json"), created);
-    res.redirect("products/detail/"+ product.id);
+    res.redirect("/");
 	},
 
 	// Update - Form to edit
+	
 	edit: (req, res) => {
-		let id = req.params.id;
-		let productToEdit = products[id];
+
+		let _id = Number(req.params.id);
+		// let productToEdit = products[id];
+		let productToEdit = products.find(({id})=> id === _id)
 		res.render('product-edit-form', {productToEdit: productToEdit})
+		
 	},
 	// Update - Method to update
 	update: (req, res) => {
@@ -61,7 +66,7 @@ const controller = {
     });
 		let edited = JSON.stringify(products);
     fs.writeFileSync(path.join(__dirname, "../data/productsDataBase.json"), edited);
-    res.redirect('detail/' + id); 
+    res.redirect('/'); 
 	},
 
 	// Delete - Delete one product from DB
