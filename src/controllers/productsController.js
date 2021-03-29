@@ -29,12 +29,13 @@ const controller = {
 	// Create -  Method to store
 	store: (req, res) => {
 		let product = {};
+		product.id = products.length + 1;
     product.name = req.body.name;
     product.price = req.body.price;
     product.discount = req.body.discount;
     product.category = req.body.category;
     product.description = req.body.description;
-    product.id = products.length + 1;
+    product.image = req.body.image;
     products.push(product);
     let created = JSON.stringify(products);
     fs.writeFileSync(path.join(__dirname, "../data/productsDataBase.json"), created);
@@ -71,9 +72,13 @@ const controller = {
 
 	// Delete - Delete one product from DB
 	destroy : (req, res) => {
-		let id = parseInt(req.params.id);
+		let _id = Number(req.params.id);
+		// let product = products[id];
+		let product = products.find(({id})=> id === _id)
+		// res.render('detail', {product: product});
+
 		//Eliminando el id
-		products.splice(id-1,1);
+		products.splice(product,1);
 		let newElements = JSON.stringify(products);
 		fs.writeFileSync(path.join(__dirname, '../data/productsDataBase.json'), newElements);
 		res.redirect('/');

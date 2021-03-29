@@ -28,7 +28,7 @@ router.delete('/:id', productsController.destroy);
 /*** MULTER CONFIG ***/
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, './public/images/products');
+    cb(null, '/images/products');
   },
   filename: (req, file, cb) => {
     let imageName = Date.now() + path.extname(file.originalname);
