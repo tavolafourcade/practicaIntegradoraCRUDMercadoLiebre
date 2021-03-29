@@ -1,1 +1,98 @@
-[{"id":1,"name":"Cafetera Moulinex Dolce Gusto Edited","price":100,"discount":50,"category":"visited","description":"Cafetera Dolce Gusto Lumio. La cafetera Dolce Gusto Lumio es de variedad automática que ha llegado con un diseño radical al que nos tenía acostumbrados Dolce Gusto.En este post te contamos todo lo que necesitas saber sobre ella, desde sus características técnicas hasta la calidad de las cápsulas o price.","image":"img-cafetera-moulinex.jpg"},{"id":3,"name":"Samsung Galaxy S10","price":72999,"discount":25,"category":"in-sale","description":"Experiencia visual excepcional. Mirá tus series y películas favoritas con la mejor definición.Tendrás colores brillantes y detalles precisos en todos tus contenidos.Disfrutá aún más del mejor entretenimiento gracias a su vasta pantalla y ángulos de visión amplios.","image":"img-samsung-galaxy-s10.jpg"},{"id":11,"name":"Parlante Inalámbrico Bose Soundtouch 1000","description":"Parlante Inalámbrico Bose Soundtouch 10. SoundTouch®.La manera más sencilla de reproducir música en todo su hogar de forma inalámbrica. Características. » Marca: Bose. » Modelo: SoundTouch. » Color: Negro","price":"29990","discount":"12","image":"img-parlante-bose.jpg","category":""},{"id":12,"name":"Home Theatre Sony Bdv-e4100","description":"El sonido Surround de 5.1 canales y 1000 W proporciona un audio de verdadero impacto en los efectos especiales de películas y efectos de sonido de música y deportes. Con la tecnología Near Field Communication(NFC) podés disfrutar de Sonido One- Touch para reproducir música de forma instantánea","price":"32990","discount":"0","image":"img-home-theater-sony.jpg","category":""},{"id":13,"name":"Smart TV Samsung 4K 50","description":"Con el Smart TV Samsung UN50MU6100, viví una nueva experiencia visual con la resolución 4K, que te presentará imágenes con gran detalle y de alta calidad. Ahora todo lo que veas cobrará vida con brillo y colores más reales. Gracias a su tamaño de 50\", podrás transformar tu espacio en una sala de cine y transportarte a donde quieras.","price":34990,"discount":0,"image":"img-tv-samsung-smart.jpg","category":"visited"},{"id":14,"name":"Sony S6700 Reproductor De Blu-ray ","description":"Disfruta de tus películas favoritas con hasta cuatro veces más detalles que Full HD, gracias a la conversión de señales 4K. Cuando se conecta a un televisor compatible,un procesador de video avanzado convierte el video estándar en una señal cercana a la resolución 4K (3840 x 2160). Con ocho millones de píxeles, obtendrás imágenes más nítidas y detalladas, y la mayor calidad de la image te permite sentarte más cerca de la pantalla para que te sientas como en el cine.","price":10999,"discount":5,"image":"img-sony-blueray.jpg","category":"visited"},{"id":15,"name":"Bicicleta Mountain Bike Fierce Rodado 29","description":"Bicicleta Mountain Bike Fierce Rodado 29 21 velocidades. Tipo: Mountain Bike. Rodado: 29. Material Cuadro: Aluminio. Talle: 18. Suspensión: Delantera. Velocidades: 21 - Shimano. Sistema de Freno: Disco Mecánico. Llantas: Doble pared.","price":15979,"discount":12,"image":"img-bicicleta-fierce.jpg","category":"visited"},{"id":16,"name":"Sony Srs-xb12 Parlante Bluetooth Portátil","price":4699,"discount":5,"category":"in-sale","description":"Deja que la música dance cobre vida con EXTRA BASS™ Anima el ambiente con EXTRA BASS™1. Un radiador pasivo trabaja con el parlante monoaural para potenciar los tonos bajos y mejorar los graves, a pesar del tamaño compacto. ","image":"img-parlante-sony.jpg"},{"name":"ttttt","price":"23","discount":"3","category":"in-sale","description":"dfdsf","id":9},{"name":"ttttt","price":"23","discount":"3","category":"in-sale","description":"dfdsf","id":10}]
+[
+  {
+    "id": 1,
+    "name": "Cafetera Moulinex Dolce Gusto Edited",
+    "price": 100,
+    "discount": 50,
+    "category": "visited",
+    "description": "Cafetera Dolce Gusto Lumio. La cafetera Dolce Gusto Lumio es de variedad automática que ha llegado con un diseño radical al que nos tenía acostumbrados Dolce Gusto.En este post te contamos todo lo que necesitas saber sobre ella, desde sus características técnicas hasta la calidad de las cápsulas o price.",
+    "image": "img-cafetera-moulinex.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Samsung Galaxy S10",
+    "price": 72999,
+    "discount": 25,
+    "category": "in-sale",
+    "description": "Experiencia visual excepcional. Mirá tus series y películas favoritas con la mejor definición.Tendrás colores brillantes y detalles precisos en todos tus contenidos.Disfrutá aún más del mejor entretenimiento gracias a su vasta pantalla y ángulos de visión amplios.",
+    "image": "img-samsung-galaxy-s10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Parlante Inalámbrico Bose Soundtouch 1000",
+    "description": "Parlante Inalámbrico Bose Soundtouch 10. SoundTouch®.La manera más sencilla de reproducir música en todo su hogar de forma inalámbrica. Características. » Marca: Bose. » Modelo: SoundTouch. » Color: Negro",
+    "price": "29990",
+    "discount": "12",
+    "image": "img-parlante-bose.jpg",
+    "category": ""
+  },
+  {
+    "id": 12,
+    "name": "Home Theatre Sony Bdv-e4100",
+    "description": "El sonido Surround de 5.1 canales y 1000 W proporciona un audio de verdadero impacto en los efectos especiales de películas y efectos de sonido de música y deportes. Con la tecnología Near Field Communication(NFC) podés disfrutar de Sonido One- Touch para reproducir música de forma instantánea",
+    "price": "32990",
+    "discount": "0",
+    "image": "img-home-theater-sony.jpg",
+    "category": ""
+  },
+  {
+    "id": 13,
+    "name": "Smart TV Samsung 4K 50",
+    "description": "Con el Smart TV Samsung UN50MU6100, viví una nueva experiencia visual con la resolución 4K, que te presentará imágenes con gran detalle y de alta calidad. Ahora todo lo que veas cobrará vida con brillo y colores más reales. Gracias a su tamaño de 50\", podrás transformar tu espacio en una sala de cine y transportarte a donde quieras.",
+    "price": 34990,
+    "discount": 0,
+    "image": "img-tv-samsung-smart.jpg",
+    "category": "visited"
+  },
+  {
+    "id": 14,
+    "name": "Sony S6700 Reproductor De Blu-ray ",
+    "description": "Disfruta de tus películas favoritas con hasta cuatro veces más detalles que Full HD, gracias a la conversión de señales 4K. Cuando se conecta a un televisor compatible,un procesador de video avanzado convierte el video estándar en una señal cercana a la resolución 4K (3840 x 2160). Con ocho millones de píxeles, obtendrás imágenes más nítidas y detalladas, y la mayor calidad de la image te permite sentarte más cerca de la pantalla para que te sientas como en el cine.",
+    "price": 10999,
+    "discount": 5,
+    "image": "img-sony-blueray.jpg",
+    "category": "visited"
+  },
+  {
+    "id": 15,
+    "name": "Bicicleta Mountain Bike Fierce Rodado 29",
+    "description": "Bicicleta Mountain Bike Fierce Rodado 29 21 velocidades. Tipo: Mountain Bike. Rodado: 29. Material Cuadro: Aluminio. Talle: 18. Suspensión: Delantera. Velocidades: 21 - Shimano. Sistema de Freno: Disco Mecánico. Llantas: Doble pared.",
+    "price": 15979,
+    "discount": 12,
+    "image": "img-bicicleta-fierce.jpg",
+    "category": "visited"
+  },
+  {
+    "id": 16,
+    "name": "Sony Srs-xb12 Parlante Bluetooth Portátil",
+    "price": 4699,
+    "discount": 5,
+    "category": "in-sale",
+    "description": "Deja que la música dance cobre vida con EXTRA BASS™ Anima el ambiente con EXTRA BASS™1. Un radiador pasivo trabaja con el parlante monoaural para potenciar los tonos bajos y mejorar los graves, a pesar del tamaño compacto. ",
+    "image": "img-parlante-sony.jpg"
+  },
+  {
+    "name": "ttttt",
+    "price": "23",
+    "discount": "3",
+    "category": "in-sale",
+    "description": "dfdsf",
+    "id": 9
+  },
+  {
+    "name": "ttttt",
+    "price": "23",
+    "discount": "3",
+    "category": "in-sale",
+    "description": "dfdsf",
+    "id": 10
+  },
+  {
+    "name": "ddf",
+    "price": "2",
+    "discount": "3",
+    "category": "in-sale",
+    "description": "sdd",
+    "id": 11
+  }
+]
