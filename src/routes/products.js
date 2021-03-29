@@ -25,5 +25,15 @@ router.put('/edit/:id', productsController.update);
 /*** DELETE ONE PRODUCT***/ 
 router.delete('/:id', productsController.destroy); 
 
+/*** MULTER CONFIG ***/
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, './public/images/products');
+  },
+  filename: (req, file, cb) => {
+    let imageName = Date.now() + path.extname(file.originalname);
+    cb(null, imageName);
+  }
+})
 
 module.exports = router;
